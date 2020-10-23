@@ -24,6 +24,12 @@ class Mystyle {
     color: Colors.greenAccent,
   );
 
+  TextStyle mainH2TitleWhite = TextStyle(
+    fontSize: 14.0,
+    fontWeight: FontWeight.bold,
+    color: Colors.white,
+  );
+
   BoxDecoration myBoxDecoration(String namePic) {
     return BoxDecoration(
       image: DecorationImage(

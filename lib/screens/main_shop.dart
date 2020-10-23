@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:dio/src/dio.dart';
 import 'package:greenmarket/utility/my_styte.dart';
-//import 'package:shared_preferences/shared_preferences.dart';
 import 'package:greenmarket/utility/signout_process.dart';
 import 'package:greenmarket/widget/information_shop.dart';
 import 'package:greenmarket/widget/list_product_menu_shop.dart';
 import 'package:greenmarket/widget/order_list_shop.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+
 
 class MainShop extends StatefulWidget {
   @override
